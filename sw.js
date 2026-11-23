@@ -1,4 +1,4 @@
-const CACHE_NAME = "diario-nati-v3";
+const CACHE_NAME = "diario-alejandra-v4";
 const FILES = ["./", "./index.html", "./manifest.json", "./icono-princesa.png"];
 self.addEventListener("install", event => { event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(FILES))); self.skipWaiting(); });
 self.addEventListener("activate", event => { event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k))))); self.clients.claim(); });

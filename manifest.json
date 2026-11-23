@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Un rincón para Natalia",
-  "short_name": "Natalia",
-  "description": "Un diario especial para Natalia. La constelación de estrellas forma NATI.",
+  "name": "Un rincón para Alejandra",
+  "short_name": "Alejandra",
+  "description": "Un diario especial para Alejandra. La constelación de estrellas forma ALE.",
   "lang": "es-CO",
   "start_url": "./",
   "scope": "./",
